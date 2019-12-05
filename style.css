@@ -1,3 +1,4 @@
+html,
 body {
   background-color: #16323b;
 }
@@ -11,6 +12,10 @@ body {
   margin-top: 20px;
   margin-bottom: 60px;
   color: #ffffff;
+}
+
+.header #bio-name {
+  font-size: 40px;
 }
 
 #bio-title {
@@ -71,6 +76,11 @@ body {
   background-color: #343a40;
   color: #fff;
 }
+
+#projects .btn-primary {
+  background-color: #bbb;
+  border: none;
+}
 @media (max-width: 760px) {
   #bio-name {
     font-size: 30px;
@@ -86,8 +96,15 @@ body {
     display: block;
   }
 
+  #projects {
+    margin-bottom: 20px;
+  }
+
   #projects img {
-    margin-top: 20px;
-    margin-right: 20px;
+    margin-top: 50px;
+  }
+
+  #projects h5 {
+    font-size: 24px;
   }
 }
